@@ -2,6 +2,8 @@
 % data according to the instructions in PoSauthmanual.pdf
 \documentclass{PoS}
 
+\usepackage{url}
+ 
 \title{Multimessenger Astrophysics : Session Summary}
 
 \ShortTitle{Short Title for header}
@@ -14,8 +16,7 @@
        KVI-Center for Advanced Radiation Technology,\\University of Groningen, NL-9700 AB Groningen, Netherlands\\Instituto de F\'isica de Sao Carlos,\\ Universidade de Sao Paulo, CP 369, 13560-970, Sao Carlos, Sao Paulo, SP, Brazil\\
         E-mail: \email{m.vecchi@rug.nl}}
 
-\abstract{This will the place for the abstract of our proceedings\
-          ...........................}
+\abstract{We summarize the activities of the ``Multimessenger Astrophysics'' parallel session of the Neutrino Oscillation Workshop (NOW2018).}
 
 \FullConference{Neutrino Oscillation Workshop (NOW2018)\\
 		9 - 16 September, 2018\\
@@ -25,15 +26,40 @@
 
 \section{Introduction {\it (Manuela \& Markus)}}
 
-Introduction and highlights, {\it e.g.} TXS 0506+56~\cite{IceCube:2018cha,IceCube:2018dnn}
+%Introduction and highlights, {\it e.g.} TXS 0506+56~\cite{IceCube:2018cha,IceCube:2018dnn}
+
+The neutrino has unique properties that makes it an ideal messenger for astronomy. It is not deflected by Galactic and extra-galactic magnetic fields, as it happens for charged cosmic rays, and its arrival direction points back to its origin. It is also not affected by absorption in cosmic radiation backgrounds, as it is the case for $\gamma$-rays above TeV, and it therefore provides a probe of distant and therefore early cosmic sources. Its weak interaction with matter allows to study dense environments, like proto-neutron stars from the core-collapse of supernovae, that are otherwise not visible in photons.
+
+High-energy neutrinos are a result of pion production in cosmic ray (CR) interactions with background photons and gas. Charged pion decay via $\pi^+\to\mu^++\nu_\mu$ and $\mu^+\to e^++\nu_e+\bar\nu_\mu$ as well as charge-conjugated processes. Simultaneously, neutral pions from the same CR interactions decay as $\pi^0\to\gamma+\gamma$ and provide a flux of $\gamma$-rays. The neutrino is therefore a strong probe of multi-messenger sources: it provides unambiguous evidence for the presence of cosmic ray sources and helps to separate hadronic $\gamma$-ray emission from leptonic scenarios.
+
+The ``Multimessenger Astrophysics'' parallel session at NOW 2018 complemented five overview talks in the plenary session that covered recent results of TeV-PeV astrophysical neutrinos ({\bf Claudio Kopper}), recent results of gravitational wave astronomy ({\bf Ian Harry}), neutrino searches from Fermi-LAT $\gamma$-ray blazars ({\bf Matthias Kadler}), charged Galactic cosmic rays observed in orbit ({\bf  Giovanni Ambrosi}), and the prospects of detecting the next core-collapse supernovae via MeV-GeV neutrinos ({\bf Shunsaku Horiuchi}). Details can be found in the corresponding proceedings contributions. In the following, we summarize the twelve presentations given in the parallel session, covering astrophysical neutrinos, supernova neutrinos, $\gamma$-rays, and cosmic rays.
 
 \section{Astrophysical Neutrinos {\it (Markus)}}
 
-\begin{itemize}
-\item Marek Kowalski - {\it IceCube-Gen2 and IceCube-Upgrade}~\cite{Aartsen:2014njl}
-\item Maurizio Spurio - {\it Overview of ANTARES neutrino telescope: multimessenger results }
-\item Rosa Coniglione - {\it First results and perspectives of the KM3NeT/ARCA Detector}~\cite{Adrian-Martinez:2016fdl}
-\end{itemize}
+{\bf Maurizio Spurio} provided an overview of the ANTARES detector with a focus on recent multi-messenger results. The experiment is located off the shore of Toulon (France) and has been operating since 2007. Its detection volume is only about one percent of the cubic-kilometer IceCube observatory located at the South Pole, but its location in the Northern Hemisphere allows for a compatible sensitivity for sources in the Southern Hemisphere, in particular sources towards the Galactic Center. Maurizio presented limits on point-like sources using ANTARES data collected from 2007 to 2015. ANTARES has been looking for sources in an all-sky search as well as emission from a catalogue of 106 known $\gamma$-ray sources~\cite{Albert:2017ohr}. No significant neutrino emission has been detected, resulting in upper limits for these sources.
+
+The search of diffuse neutrino emission with ANTARES is an important check of recent IceCube observations. The data collected between 2007 and 2015 shows 33 candidate events for an isotropic astrophysical neutrino flux in comparison to $24\pm6$ events expected from backgrounds~\cite{Albert:2017nsd}. This correspond to a mild excess of $1.6\sigma$ and the diffuse flux limit of $E_\nu^2\phi_{\nu_\mu+\bar\nu_\mu}\simeq 4\times10^{-8} {\rm GeV} {\rm s}^{-1} {\rm cm}^{-2} {\rm sr}^{-1}$ is consistent with IceCube's observation. 
+
+The diffusive propagation of Galactic cosmic rays and their interaction with gas in the vicinity of the Galactic Plane should also be visible as diffuse high-energy neutrino emission. A recent joined analysis of ANTARES and IceCube~\cite{Albert:2018vxw} places upper limits on the emission. The result is starting to probe optimistic Galactic diffuse models, that assume a strong dependence of cosmic ray densities with Galactic radius and a high cosmic ray cutoff at 50~PeV~\cite{Gaggero:2015xza}.
+
+An important aspect of neutrino astronomy is the communication with multi-messenger partners. ANTARES participates in the Astrophysical Multimessenger Observatory Network~\cite{Smith:2012eu,AMON} (AMON) as well as the Gamma-ray Coordinate Network~\cite{GCN} (GCN). Well-reconstructed neutrino candidates with an angular resolution of $0.5^\circ$ can generate neutrino alerts in the case of doublet events (0.04 events/yr), events from the direction of local galaxies (10 events/yr), as well as single high-energy events (20 events/yr above 5~TeV and 3-4 events/yr above 30~TeV). 
+
+On the other hand, ANTARES performs offline follow-up studies on transient electro-magnetic sources, ultra-high energy cosmic rays, high-energy neutrinos, and gravitational waves. Recent highlights are the search of neutrinos from fast radio bursts~\cite{Albert:2018euo}, neutrino emission from TXS 0506+056~\cite{Albert:2018kjg}, and the binary neutron star merger GW170817~\cite{ANTARES:2017bia}. Again, no significant neutrino emission above backgrounds were detected for all these candidate sources leading to upper limits on the time-integrated neutrino emission. The telescope will continue observation until the end of 2019 coinciding with the end of the next gravitational wave observation period (O3) of LIGO and VIRGO.
+
+The next-generation neutrino telescope in the Mediterranean will be KM3NeT~\cite{Adrian-Martinez:2016fdl}. {\bf Rosa Coniglione} summarized the present status of the observatory and the expected science potential. The detector will be comprised of two components -- the low-energy detector ORCA off the shore of Toulon (France) and the high-energy detector ARCA  off the shore of Capo Passero (Sicily, Italy). Both detectors use the same detection units (DUs), consisting of vertical slender strings equipped with 18 Digital Optical Modules (DOMs), but with different inter-spring spacing. The individual DOMs use a novel design with an arrangement of 31 3 inch photo-multiplier tubes, that reduces the cost per photocathode area while improving the angular acceptance. For a discussion of the physics with KM3NeT ORCA we refer to the contribution by Dorothea Samtleben.
+
+In its final configuration, KM3NeT ARCA will consist of two building blocks with 115 DUs, each, with an inter-string spacing of 80 meters. The first construction phase (``Phase-1'') is fully funded and consist of 24 DUs for ARCA, corresponding to an effective volume of $\mathcal{O}(0.1)~{\rm km}^{3}$. The first three DUs at the ARCA site were deployed in December 2015 and March 2016. Two of these DUs operated successfully until a junction box failed in March 2017. The recovery of DUs and the restoration of the sea bed infrastructure are ongoing.
+
+The fully instrumented ARCA detector will have excellent sensitivity for point-source and diffuse neutrino searches. The field of view will be complementary to IceCube in the Southern Hemisphere. KM3NeT expects to reconstruct cascade events with an angular resolution better than $2^\circ$ and an energy resolution of better than 5\%. The combined event samples of muon tracks and cascades allow for a discovery of the diffuse neutrino flux observed by IceCube within six months. Optimistic predictions of the Galactic diffuse neutrino emission can be discovered within four years. Galactic supernova remnants, like RXJ1713.7-3946, that are observed in $\gamma$-rays can provide $3\sigma$ evidence for neutrino emission within five years, if the $\gamma$-ray emission is of hadronic nature.
+
+Future upgrades and extensions of the IceCube detector at the South Pole were summarized by {\bf Marek Kowalski}. The collaboration is presently preparing the IceCube-Upgrade, which is an infill of up to seven strings in the existing IceCube DeepCore array. These strings will carry new DOM designs with upgraded electronics, smaller diameter for efficient deployment, larger acceptance and/or effective area. Together with integrated calibration devices (LED flashers, acoustic sensors, and optical cameras), the new strings will also carry stand-alone light sources, that allow for a better calibration of the existing and new strings. The improved knowledge of the glacial ice can be used to reduce systematic uncertainties and the improvement of archival data with respect to angular, energy, and flavor reconstructions. The IceCube-Upgrade will also allow for the study of fundamental neutrino properties, similar to the existing physics program of DeepCore, but with a significantly improved sensitivities (see the contribution by Andrii Terliuk). The deployment of the IceCube-Upgrade strings is foreseen in 2022/23.
+
+The long-term vision for multi-messenger astronomy at the South Pole is IceCube-Gen2~\cite{Aartsen:2014njl} -- a multi-component facility covering low- and high-energy neutrinos. This facility will include an in-ice optical Cherenkov detector with a planned volume of $6-10~{\rm km}^3$, depending on string spacing. In combination with improved calibration methods introduced in IceCube-Upgrade, the IceCube-Gen2 detector will have an improved angular resolution reaching $0.2^\circ$ for horizontal muons. The increased event statistics beyond 100~TeV will allow to probe the spectrum and flavor composition of the diffuse neutrino flux with unprecedented precision. 
+%\begin{itemize}
+%\item Marek Kowalski - {\it IceCube-Gen2 and IceCube-Upgrade}~\cite{Aartsen:2014njl}
+%\item Maurizio Spurio - {\it Overview of ANTARES neutrino telescope: multimessenger results }
+%\item Rosa Coniglione - {\it First results and perspectives of the KM3NeT/ARCA Detector}~\cite{Adrian-Martinez:2016fdl}
+%\end{itemize}
 
 \section{Supernova Neutrinos {\it (Markus)}}
 
